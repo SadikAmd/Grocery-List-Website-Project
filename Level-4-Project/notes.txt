@@ -1,0 +1,1 @@
+To implement CSS grid into my project I would create a div with one column of a grid and every time a user adds a new grocery item to the list, there is a row created under that column and contains the item along with buttons that are programmed to allow the user to move items up and down the grid along with letting them delete that row to get rid of that item. 

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>GroceryList_SadikAhamed</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onkeypress="handleKeyPress(event)">
+  <div class="container">
+    <div class="navBar">
+      <img src="images/list-removebg-preview.png" class="logo" />
+      <h1>
+        Shop Lift Up
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="https://www.target.com/c/grocery/-/N-5xt1a" target="_blank">Target</a></li>
+          <li><a href="https://www.wholefoodsmarket.com/products" target="_blank">WholeFoods</a></li>
+          <li><a href="https://www.walmart.com/cp/food/976759" target="_blank">Walmart</a></li>
+        </ul>
+      </nav>
+      <img src="images/cart-removebg-preview.png" class="cartIcon" />
+    </div>
+
+  </div>
+  <div class="main">
+    <h2>Add an item below</h2>
+    <input id="item" type="text" placeholder="Enter item">
+    <button id="addButton" onclick="addToList()">Add To List</button>
+    <div class="fullList">
+      <div class="layer1">
+        <div class="layer2">
+          <img src="images/cart.png" class="listCart" />
+          <p class="listTitle"><b>Things to Buy:</b></p>
+          <ol type="1" id="list"></ol>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

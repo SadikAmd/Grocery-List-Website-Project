@@ -1,0 +1,140 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+    width: 100%;
+    min-width: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .navBar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    width: 100px;
+    margin: 30px 0;
+  }
+  .cartIcon{
+    width: 100px;
+  }
+  nav{
+    flex: 1;
+    text-align: right;
+  }
+
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Lobster", cursive;
+    font-size: 14px;
+  }
+nav ul li a:hover{
+    color: #00bfff;
+  }
+
+h1{
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.main{
+  text-align: center;
+  font-family:"Lobster", cursive;
+  font-size: 30px;
+}
+
+button{
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 30px;
+  background: linear-gradient(to right, #fff7bf, #7ddac2);
+  border-radius: 10px;
+  text-shadow: 2px 0 #232931;
+}
+
+.fullList{
+  display: grid;
+  place-items: center;
+}
+
+.layer1{
+  margin-top: 30px;
+  width: 600px;
+  background-color: #ff7b79;
+  border: 20px solid #000000;
+  padding: 20px;
+  border-radius: 30px;
+}
+.listTitle{
+  font-size: 30px;
+margin-top: auto;
+}
+
+.layer2{
+  background-color: #fff7bf;
+  border: 20px solid #000000;
+  padding: 5px;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 30px;
+}
+
+.listCart{
+  width: 150px;
+  height: 114px;
+}
+
+#item {
+  font-family:"Lobster", cursive;
+  width: 150px;
+  font-size: 25px;
+  border-radius:10px;
+  border: solid gray 2px;
+  padding:5px;
+}
+
+#list{
+  margin-left:10px;
+  margin-top: 10px;
+  text-align: left;
+}
+.layer2 button{
+  font-size: 15px;
+  text-shadow: none;
+  float: right;
+  width: 70px;
+  margin-top: 3px;
+}
+.pricing{
+  margin-top: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+.pricing a{
+  color:#f14d4e;
+  margin: 2px;
+  text-decoration: none;
+}
+
+.pricing a:hover{
+    color: #00bfff;
+  }
+#list hr{
+  border: 3px solid black ;
+}
